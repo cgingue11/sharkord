@@ -1,0 +1,10 @@
+services:
+  sharkord:
+    build: .
+    container_name: sharkord
+    ports:
+      - "4991:4991"
+      - "40000:40000/udp"
+      - "40000:40000/tcp"
+    volumes:
+      - ./docker-data:/root/.config/sharkord

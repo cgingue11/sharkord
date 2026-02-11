@@ -1,0 +1,11 @@
+node_modules/
+.git/
+apps/server/build/out/
+apps/server/build/temp/
+apps/client/dist/
+docker-data/
+*.md
+LICENSE
+.gitignore
+.prettierrc*
+knip.json
